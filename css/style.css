@@ -47,6 +47,10 @@ body {
 
 /* Main Content */
 
+section {
+    margin: 100px 0;
+}
+
 /* Trova il piano business */
 
 .check {
@@ -107,4 +111,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Partner Section */
+
+.partner-section {
+    display: flex;
+    justify-content: space-between;
 }
