@@ -201,10 +201,15 @@ section {
 
 /* Footer */
 footer {
-    padding: 100px 0;
     background-color: black;
     color: white;
     min-height: 100px;
+}
+
+/* Upper Footer */
+
+.upper-footer {
+    padding: 80px 0;
 }
 
 .footer-part {
@@ -215,4 +220,13 @@ footer {
 .footer-list-part {
     width: calc(100% / 5 - 30px);
     min-height: 100px;
+}
+
+/* Bottom Footer */
+
+.bottom-footer-content {
+    padding: 50px 0;
+    border-top: 2px solid white;
+    width: 150px;
+    display: inline-block;
 }
