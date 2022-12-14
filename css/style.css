@@ -1,3 +1,11 @@
+:root {
+    --plans-border: grey;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Header */
 
 .upper-header-nav {
@@ -35,4 +43,68 @@
 
 .jumbotron-content {
     display: flex;
+}
+
+/* Main Content */
+
+/* Trova il piano business */
+
+.check {
+    display: flex;
+    gap: 50px;
+}
+
+.billing {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-circle {
+    display: inline-block;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid grey;
+    border-radius: 50%;
+}
+
+/* Plans */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 30%;
+    min-height: 500px;
+    border: 3px solid var(--plans-border);
+}
+
+.large-col {
+    width: 100%;
+    min-height: 150px;
+    border: 3px solid var(--plans-border);
+}
+
+.plan-name {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px solid var(--plans-border);
+}
+
+.price-info {
+    display: block;
+}
+
+.fa-ul {
+    margin-left: 25px;
+}
+
+/* Enterprise Plan */
+
+.enterprise-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
