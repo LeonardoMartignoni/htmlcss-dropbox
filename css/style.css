@@ -1,5 +1,5 @@
 :root {
-    --plans-border: grey;
+    --plans-border: 2px solid lightgrey;
 }
 
 /* Generics */
@@ -12,11 +12,34 @@ button {
     color: white;
     background-color: #0061FF;
     padding: 15px 20px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 600;
 }
 
 p {
     font-size: 18px;
     color: #3d4041;
+}
+
+span,
+li {
+    font-weight: 300;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: lightgray;
+    margin: 50px 0;
+    width: 50px;
 }
 
 /* Header */
@@ -87,13 +110,18 @@ p {
 
 /* Main Content */
 
+section:first-of-type {
+    margin-top: 200px;
+}
+
 section {
     margin: 100px 0;
 }
 
-/* Trova il piano business */
+/* Business Plans */
 
-.check {
+.business-plans .check {
+    margin: 70px 0 60px 0;
     display: flex;
     gap: 50px;
 }
@@ -101,6 +129,7 @@ section {
 .billing {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .checkbox-circle {
@@ -112,6 +141,10 @@ section {
     border-radius: 50%;
 }
 
+.billing:hover .checkbox-circle {
+    border: 6px solid #0061FF;
+}
+
 /* Plans */
 
 .row {
@@ -121,20 +154,41 @@ section {
 
 .col {
     width: 30%;
-    min-height: 500px;
-    border: 3px solid var(--plans-border);
+    border: var(--plans-border);
 }
 
 .large-col {
+    margin: 50px 0;
     width: 100%;
     min-height: 150px;
-    border: 3px solid var(--plans-border);
+    border: var(--plans-border);
+}
+
+.plan-info {
+    padding: 45px;
+}
+
+.plans-detail>h3 {
+    margin-bottom: 16px;
+}
+
+.price {
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
 .plan-name {
     text-align: center;
     padding: 10px 0;
-    border-bottom: 3px solid var(--plans-border);
+    border-bottom: var(--plans-border);
+}
+
+.plans-more {
+    margin: 50px 0;
+}
+
+.plans-more-details>ul>li {
+    margin-bottom: 20px;
 }
 
 .price-info {
@@ -145,12 +199,38 @@ section {
     margin-left: 25px;
 }
 
+.plan-button>button {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.text-plan-highlights {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.plan-highlights li {
+    margin-bottom: 20px;
+}
+
 /* Enterprise Plan */
 
-.enterprise-plan {
+.enterprise-plan-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.enterprise-plan-description {
+    margin-top: 60px;
+}
+
+.enterprise-plan-details>h3 {
+    margin-bottom: 15px;
+}
+
+.enterprise-plan-button>button {
+    padding: 15px 50px;
 }
 
 /* Partner Section */

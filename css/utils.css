@@ -15,3 +15,11 @@
 	clear: both;
 	display: table;
 }
+
+span {
+	display: inline-block;
+}
+
+.blue {
+	color: #0061FF;
+}
