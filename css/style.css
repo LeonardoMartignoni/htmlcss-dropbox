@@ -176,3 +176,25 @@ section {
     display: flex;
     justify-content: space-between;
 }
+
+/* FAQ Section */
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.faq .faq-question:first-of-type {
+    border-bottom: 0;
+}
+
+.faq .faq-question:last-of-type {
+    border-top: 0;
+}
+
+.faq-question>.details-icon {
+    margin-right: 40px;
+}
