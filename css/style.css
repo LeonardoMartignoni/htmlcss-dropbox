@@ -198,3 +198,21 @@ section {
 .faq-question>.details-icon {
     margin-right: 40px;
 }
+
+/* Footer */
+footer {
+    padding: 100px 0;
+    background-color: black;
+    color: white;
+    min-height: 100px;
+}
+
+.footer-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list-part {
+    width: calc(100% / 5 - 30px);
+    min-height: 100px;
+}
