@@ -119,3 +119,19 @@ section {
     display: flex;
     justify-content: space-between;
 }
+
+/* Operation Section */
+
+.operation-row.row {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.col-small {
+    width: calc(100% / 3 - 30px);
+    min-height: 300px;
+
+    /* debug */
+    background-color: blueviolet;
+}
