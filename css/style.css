@@ -32,3 +32,7 @@
     /* debug */
     background-color: cyan;
 }
+
+.jumbotron-content {
+    display: flex;
+}
