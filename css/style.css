@@ -135,3 +135,44 @@ section {
     /* debug */
     background-color: blueviolet;
 }
+
+/* Brands */
+
+.brands {
+    display: flex;
+}
+
+.central-brand,
+.side-brand {
+    aspect-ratio: 1 / 1;
+    width: calc(100% / 3);
+    min-height: 200px;
+
+    /* debug */
+    background-color: chartreuse;
+}
+
+.side-brand {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side-brand-col {
+    aspect-ratio: 1 / 1;
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+/* Brands Bottom */
+
+.brands-bottom {
+    background-color: lightblue;
+    width: 100%;
+    min-height: 100px;
+}
+
+.brands-elements {
+    display: flex;
+    justify-content: space-between;
+}
