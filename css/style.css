@@ -4,6 +4,10 @@
 
 /* Generics */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -112,7 +116,6 @@ hr {
 .right-upper-header>ul>li>.btn-primary {
     padding: 10px 20px;
 }
-
 
 /* Jumbotron */
 
