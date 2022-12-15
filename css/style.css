@@ -58,6 +58,12 @@ hr {
     width: 50px;
 }
 
+.upper-header-nav ul a,
+.footer-list-part ul a {
+    text-decoration: none;
+    color: inherit
+}
+
 /* Header */
 
 .upper-header-nav {
@@ -73,11 +79,6 @@ hr {
     display: flex;
     align-items: center;
     gap: 40px;
-}
-
-.upper-header-nav ul a {
-    text-decoration: none;
-    color: inherit
 }
 
 .left-upper-header>ul img {
@@ -442,6 +443,7 @@ section {
 }
 
 /* Footer */
+
 footer {
     background-color: black;
     color: white;
@@ -462,6 +464,14 @@ footer {
 .footer-list-part {
     width: calc(100% / 5 - 30px);
     min-height: 100px;
+}
+
+.footer-list-part>h3 {
+    margin-bottom: 20px;
+}
+
+.footer-list-part ul li {
+    padding: 10px 0;
 }
 
 /* Bottom Footer */
