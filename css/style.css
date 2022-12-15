@@ -395,9 +395,15 @@ section {
 
 /* FAQ Section */
 
+.faq {
+    margin-top: 200px;
+}
+
+.faq h2 {
+    margin: 70px 0;
+}
+
 .faq-question {
-    display: flex;
-    justify-content: space-between;
     padding: 10px 0;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -411,8 +417,28 @@ section {
     border-top: 0;
 }
 
+.faq-question summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question summary span,
 .faq-question>.details-icon {
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.faq-question .details-icon {
     margin-right: 40px;
+}
+
+.faq-question details[open] .details-icon {
+    transform: rotate(180deg);
+}
+
+.faq-question>details .faq-answer {
+    margin-bottom: 30px;
 }
 
 /* Footer */
