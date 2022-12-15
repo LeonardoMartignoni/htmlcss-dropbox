@@ -282,6 +282,13 @@ section {
     padding: 30px 0;
 }
 
+/* Team Count */
+
+.team-count-content span {
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+
 /* Brands */
 
 .brands {
