@@ -9,7 +9,7 @@ body {
 }
 
 .btn {
-    background-color: lightgray;
+    background-color: white;
     padding: 15px 20px;
     cursor: pointer;
     color: black;
@@ -373,14 +373,24 @@ section {
 /* Brands Bottom */
 
 .brands-bottom {
-    background-color: lightblue;
+    background-color: #B4D0E7;
     width: 100%;
-    min-height: 100px;
 }
 
 .brands-elements {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.brands-elements>h2 {
+    color: #61082B;
+}
+
+.btn.btn-brands {
+    font-size: 1.1rem;
+    padding: 15px 60px;
 }
 
 /* FAQ Section */
