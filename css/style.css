@@ -8,11 +8,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-button {
-    color: white;
-    background-color: #0061FF;
+.btn {
+    background-color: lightgray;
     padding: 15px 20px;
     cursor: pointer;
+    color: black;
+}
+
+.btn.btn-primary {
+    color: white;
+    background-color: #0061FF;
+}
+
+.btn.btn-outline {
+    background-color: transparent;
+    border: 3px solid grey;
+    color: grey;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -68,7 +80,7 @@ hr {
     width: 150px;
 }
 
-.right-upper-header>ul>li>button {
+.right-upper-header>ul>li>.btn-primary {
     padding: 10px 20px;
 }
 
@@ -89,10 +101,6 @@ hr {
 
 .jumbotron-content {
     display: flex;
-}
-
-.left-jumbotron-content {
-    width: 60%;
 }
 
 .left-jumbotron-content p {
@@ -141,7 +149,8 @@ section {
     border-radius: 50%;
 }
 
-.billing:hover .checkbox-circle {
+.billing:hover .checkbox-circle,
+.checkbox-circle.active {
     border: 6px solid #0061FF;
 }
 
@@ -238,6 +247,18 @@ section {
 .partner-section {
     display: flex;
     justify-content: space-between;
+}
+
+.partner-description {
+    padding: 60px;
+}
+
+.partner-description p {
+    margin: 40px 0;
+}
+
+.partner-description>.btn.btn-outline {
+    padding: 10px 15px;
 }
 
 /* Operation Section */

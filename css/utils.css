@@ -23,3 +23,11 @@ span {
 .blue {
 	color: #0061FF;
 }
+
+.w-60percent {
+	width: 60%;
+}
+
+.w-40percent {
+	width: 40%;
+}
