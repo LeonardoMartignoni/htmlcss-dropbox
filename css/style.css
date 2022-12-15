@@ -477,8 +477,13 @@ footer {
 /* Bottom Footer */
 
 .bottom-footer-content {
+    color: grey;
     padding: 50px 0;
     border-top: 2px solid white;
     width: 150px;
     display: inline-block;
+}
+
+.bottom-footer-content .footer-language {
+    margin: 0 5px;
 }
