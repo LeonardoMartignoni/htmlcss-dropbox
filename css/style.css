@@ -103,10 +103,9 @@ hr {
     line-height: 90px;
 }
 
-.upper-header-nav ul a:hover {
+.upper-header-nav ul .border-bottom:hover {
     border-bottom: 3px solid black;
 }
-
 
 .left-upper-header>ul img {
     vertical-align: middle;
