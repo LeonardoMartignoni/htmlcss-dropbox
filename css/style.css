@@ -75,6 +75,7 @@ hr {
 /* Header */
 
 .upper-header {
+    z-index: 1;
     background-color: white;
     position: fixed;
     width: 100%;
