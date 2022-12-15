@@ -66,7 +66,15 @@ hr {
 
 /* Header */
 
+.upper-header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+}
+
 .upper-header-nav {
+    height: 100%;
     font-size: 18px;
     color: #5E5E5E;
     padding: 25px;
@@ -81,7 +89,19 @@ hr {
     gap: 40px;
 }
 
+.upper-header-nav ul a {
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    line-height: 90px;
+}
+
+.upper-header-nav ul a:hover {
+    border-bottom: 3px solid black;
+}
+
+
 .left-upper-header>ul img {
+    vertical-align: middle;
     width: 150px;
 }
 
@@ -93,8 +113,8 @@ hr {
 /* Jumbotron */
 
 .jumbotron {
-    min-height: 500px;
-    height: 800px;
+    padding-top: 90px;
+    height: 900px;
     background-color: #B4D0E7;
 }
 
