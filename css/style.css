@@ -300,9 +300,20 @@ section {
     aspect-ratio: 1 / 1;
     width: calc(100% / 3);
     min-height: 200px;
+}
 
-    /* debug */
-    background-color: chartreuse;
+.central-brand {
+    overflow: auto;
+    background-color: #F5F5F5;
+    padding: 60px;
+}
+
+.central-brand hr {
+    width: 130px;
+}
+
+.central-brand img {
+    width: 300px;
 }
 
 .side-brand {
@@ -314,7 +325,49 @@ section {
     aspect-ratio: 1 / 1;
     width: 50%;
     height: 50%;
-    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-brand-col img {
+    filter: invert();
+    width: 50%;
+}
+
+/* Brands Backgroud Colors */
+
+.designit-col {
+    background-color: #A2D39B;
+}
+
+.asu-col {
+    background-color: #61082B;
+}
+
+.uniflorida-col {
+    background-color: #0093CE;
+}
+
+.topps-col {
+    background-color: #FF1C1C;
+}
+
+.wbr-col {
+    background-color: #D50020;
+}
+
+.hearst-col {
+    background-color: #B4D0E7;
+}
+
+.lonelyplanet-col {
+    background-color: #0D2581;
+}
+
+.clearchannel-col {
+    background-color: #FFD830;
 }
 
 /* Brands Bottom */
