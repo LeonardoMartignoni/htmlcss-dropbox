@@ -15,6 +15,10 @@ body {
     color: black;
 }
 
+.btn:hover {
+    filter: brightness(150%);
+}
+
 .btn.btn-primary {
     color: white;
     background-color: #0061FF;
